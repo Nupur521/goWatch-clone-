@@ -1,0 +1,66 @@
+/* main body */
+
+.recommendedVideos{
+    flex: 0.8;
+    background-color: #f9f9f9;
+    padding: 0 20px;
+    padding-bottom: 0;
+}
+
+.recommendedVideos>h2{
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+
+/* videocard */
+.videoCard{
+    width:270px;
+    margin-bottom: 40px;
+    flex: 1 1 0;
+}
+
+.videoCard__thumbnail{
+    width:250px;
+    height: 140px;
+}
+
+.Video__info{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:10px;
+}
+
+.VideoCard{
+    display: flex;
+    text-align: left;
+    margin-left: 5px;
+    flex-wrap: wrap;
+
+}
+
+.Video__text{
+    margin-left: 5px;
+    
+}
+
+.Video__text>h4{
+
+    margin-top: 0;
+    margin-bottom:0;
+    font-size: 16px;
+}
+
+.Video__text>p{
+
+    margin-top: 1px;
+    margin-bottom:1px;
+    font-size:12px;
+    color:gray;
+}
+
+.videoCard__avatar{
+    height: 30px !important;
+    width: 30px !important;
+}
+

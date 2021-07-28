@@ -1,0 +1,86 @@
+.header{
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 10px;
+position: sticky;
+/* attaching to the top */
+top: 0;
+background-color: #FFFFFF;
+z-index: 100;
+}
+
+.Header__logo{
+
+    height:25px;
+    object-fit: contain;
+    margin-left: 20px;
+}
+
+
+
+.Header__search{
+
+    display: flex;
+    align-items: center;
+    width: 25rem;
+    justify-content: right;
+    border: 1px solid black;
+}
+
+/* targetting the direct child of header */
+.Header__search>input{
+    flex:1;
+    border: none;
+    width:5rem;
+}
+
+.searchIcon{
+    width: 50px !important;
+    border-left: 1px solid lightgray;
+    color: gray;
+    background-color: #fafafa;
+}
+
+.Microphone{
+    color: gray;
+    border: none;
+    align-items: center;
+    position: relative;
+    margin-left:20px;
+   
+}
+
+.Header__icons{
+
+    display: flex;
+    align-items: center;
+    margin-right:10px;
+}
+
+/* .name{
+    color: white;
+	font-size: 40px;
+	-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    text-underline-offset: none;
+}
+
+.name2{
+    color: red;
+	font-size: 40px;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    text-underline-offset: none;  
+    display: flex;  
+
+}
+
+.head__name{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: -30px;
+    left: 50px;
+} */
